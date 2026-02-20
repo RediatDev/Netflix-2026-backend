@@ -1,0 +1,43 @@
+example request for TMDB GET https://api.themoviedb.org/3/movie/{movie_id}
+
+example response for the request : {
+  "adult": false,
+  "backdrop_path": "/path.jpg",
+  "belongs_to_collection": null,
+  "budget": 160000000,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    }
+  ],
+  "homepage": "https://example.com",
+  "id": 12345,
+  "imdb_id": "tt1234567",
+  "original_language": "en",
+  "original_title": "Movie Title",
+  "overview": "Movie description here...",
+  "popularity": 123.456,
+  "poster_path": "/poster.jpg",
+  "production_companies": [
+    {
+      "id": 1,
+      "name": "Company Name",
+      "logo_path": "/logo.png",
+      "origin_country": "US"
+    }
+  ],
+  "release_date": "2024-01-01",
+  "revenue": 500000000,
+  "runtime": 120,
+  "status": "Released",
+  "tagline": "Some tagline",
+  "title": "Movie Title",
+  "vote_average": 7.8,
+  "vote_count": 1200
+}
+
